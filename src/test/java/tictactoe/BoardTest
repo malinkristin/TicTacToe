@@ -1,0 +1,22 @@
+package tictactoe;
+
+import org.junit.jupiter.api.Test;
+import gameObjects.Board;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+public class BoardTest {
+
+    @Test
+    public void should_not_post_on_taken_square() {
+        System.out.println("should_not_post_on_taken_square");
+        Board board = new Board();
+        int firstMove = 5;
+        int secondMove = 5;
+
+        board.squares[firstMove-1] = 'X';
+        board.squares[secondMove-1] = 'O';
+
+        assertThat(board.squares[5]).isEqualTo('X');
+    }
+}

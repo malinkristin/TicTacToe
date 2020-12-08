@@ -1,3 +1,5 @@
+package gameObjects;
+
 public class Board{
     public final char[] squares;
 
