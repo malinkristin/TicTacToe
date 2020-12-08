@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tictactoe.App" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-06T12:44:20" hostname="MB-C02DG05TML88" time="0.007">
+  <properties/>
+  <testcase name="should_run_tictactoe()" classname="tictactoe.App" time="0.007"/>
+  <system-out><![CDATA[Test for TicTacToe running...
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
